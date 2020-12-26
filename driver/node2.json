@@ -1,0 +1,26 @@
+{
+  "capabilities": [{
+    "browserName": "chrome",
+    "maxInstances": 30,
+    "platform": "WINDOWS",
+    "version": "54",
+    "webdriver.chrome.driver": "chromedriver.exe"
+  }, {
+    "browserName": "firefox",
+    "maxInstances": 30,
+    "platform": "WINDOWS",
+    "version": "47"
+  }, {
+    "browserName": "internet explorer",
+    "maxInstances": 30,
+    "platform": "WINDOWS",
+    "webdriver.ie.driver": "IEDriverServer.exe"
+  }],
+  "configuration": {
+    "proxy": "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+    "maxSession": 40,
+    "port": 8887,
+    "register": true,
+    "registerCycle": 5000
+  }
+}

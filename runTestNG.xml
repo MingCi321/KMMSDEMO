@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite" parallel="methods" thread-count="3">
+<!--    parallel可以是class,按class跑案例-->
+    <test name="Selenium_Grid_Demo">
+        <classes>
+<!--            <class name="com.MavenTestNG.Auth.ElementFunctions"/>-->
+            <class name="com.MavenTestNG.Auth.TestNGRunDemo"/>
+<!--            <class name="com.MavenTestNG.Auth.ActionChainsDemo"/>-->
+<!--            <class name="com.MavenTestNG.Auth.GridTest"/>-->
+<!--            <class name="com.MavenTestNG.Auth.WebDriverChrome"/>-->
+<!--            <class name="com.MavenTestNG.Auth.SeleniumAbstract"/>-->
+        </classes>
+    </test>
+</suite>
+
